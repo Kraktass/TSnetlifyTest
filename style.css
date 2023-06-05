@@ -1,0 +1,18 @@
+body {
+  background-color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
+  color: crimson;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

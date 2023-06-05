@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My TS app</title>
+    <script>var exports = {}</script>
+</head>
+<body>
+    <h1>My TS app</h1>
+    <p>First number:</p>
+    <input type="number" id="a">
+    <p>Second number:</p>
+    <input type="number" id="b">
+    <p>
+        <button onclick="calculate(parseInt(document.getElementById('a').value), parseInt(document.getElementById('b').value))">Calculate</button>
+    </p>
+</body>
+    <script src="dist/app.js"></script>
+</html>
